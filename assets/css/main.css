@@ -1,0 +1,294 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #555;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333;
+  margin: 0;
+}
+
+/* Paragraph & Typographic */
+p {
+  line-height: 28px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: #E56E37;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before,
+a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+
+i {
+  color: #E8E8E8;
+}
+
+section {
+  height: 0;
+}
+/*---------------------------------------------------
+3.1 Topbar
+---------------------------------------------------*/
+
+#section-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  overflow: visible;
+  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#section-topbar a {
+  color: #E8E8E8;
+}
+
+#topbar-inner {
+  background: #10011F;
+  line-height: 0;
+  text-align: center;
+}
+/*
+Top Bar
+
+By default, top navigation bar uses "fixed" position
+*/
+
+#section-topbar ul#nav {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #222;
+  /* For IE, the outcast */
+  zoom: 1;
+  *display: inline;
+}
+
+#section-topbar ul#nav>li {
+  display: block;
+  float: left;
+  padding: 0;
+}
+
+#section-topbar ul#nav a {
+  display: block;
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+  border-left: 1px solid #222;
+}
+
+#section-topbar ul#nav a:hover {
+  background: #1F0638;
+  text-decoration: none;
+  border-left: 1px solid #10011F;
+}
+
+#section-topbar ul#nav .active {
+  background: #1F0638;
+  border-left: 1px solid #10011F;
+}
+
+#section-topbar ul#nav .active a:hover {
+  background: #1F0638;
+}
+
+#section-topbar i {
+  font-size: 25px;
+  color: #E8E8E8;
+}
+/*---------------------------------------------------
+SECTION WRAPS
+---------------------------------------------------*/
+/* Header Wrap */
+
+#headerwrap {
+  background: url(../img/coverphoto.jpg) no-repeat center top;
+  margin-top: 60px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+#headerwrap h1 {
+  font-size: 80px;
+  margin: 0;
+  color: #E8E8E8;
+}
+
+#headerwrap h3 {
+  font-size: 20px;
+  color: #E8E8E8;
+}
+
+#about {
+  background: #1F0638;
+}
+/* Intro Wrap */
+
+#intro {
+  background: #1F0638;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #E8E8E8;
+}
+
+#intro h5, p {
+  color: #E8E8E8;
+}
+
+#intro i {
+  color: #E56E37;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+
+#skillswrap {
+  background: #1F0638;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #E8E8E8;
+}
+
+#skillswrap h5,
+p {
+  color: #E8E8E8;
+}
+
+#footwrap {
+  background: #140424;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footwrap p {
+  color: #E8E8E8;
+}
+
+#footwrap h5 {
+  color: #E8E8E8;
+}
+
+#footwrap t {
+  font-weight: 700;
+}
+
+#footwrap i {
+  padding-right: 8px;
+  color: #E8E8E8;
+}
+/* Copyright Wrap */
+
+#c {
+  background: #140424;
+}
+
+#c p {
+  color: #E8E8E8
+}
+/* Global Values */
+
+.desc {
+  padding: 60px 0;
+}
+
+.desc p {
+  color: #2B202A;
+}
+
+.desc t {
+  color: #1F0638;
+  font-weight: 700;
+}
+
+.desc imp {
+  padding: 6px;
+  color: #E8E8E8;
+  background: #34495e;
+}
+
+.desc more {
+  color: #838585;
+}
+
+sm {
+  font-size: 14px;
+}
+
+#social_icons {
+  display: block;
+}
+
+#social_icons li {
+  display: inline-table;
+  padding: 6px 4px;
+}
+
+span.tab {
+  padding: 0 4px;
+}
+
+#appcow_tryout {
+  background: url(../img/appcow_tryout.jpg) no-repeat center top;
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Kasper Personal Site",
+    "name": "kaspnilsson-personal",
+    "version": "0.0.1",
+    "description": "Personal resume website.",
+    "keywords": [
+        "css",
+        "html",
+        "responsive",
+        "theme"
+    ],
+    "license": "MIT",
+    "author": "kaspnilsson",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kaspnilsson/kaspnilsson.github.io.git"
+    }
+}
