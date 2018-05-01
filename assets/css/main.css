@@ -167,6 +167,12 @@ p {
   padding-right: 8px;
   color: #E8E8E8;
 }
+
+#footwrap i:hover,
+#footwrap i:focus {
+  color: #E56E37;
+}
+
 /* Copyright Wrap */
 
 #c {
