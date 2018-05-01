@@ -71,79 +71,7 @@ i {
 section {
   height: 0;
 }
-/*---------------------------------------------------
-3.1 Topbar
----------------------------------------------------*/
 
-#section-topbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10000;
-  overflow: visible;
-  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#section-topbar a {
-  color: #E8E8E8;
-}
-
-#topbar-inner {
-  background: #10011F;
-  line-height: 0;
-  text-align: center;
-}
-/*
-Top Bar
-
-By default, top navigation bar uses "fixed" position
-*/
-
-#section-topbar ul#nav {
-  display: inline-block;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  border-right: 1px solid #222;
-  /* For IE, the outcast */
-  zoom: 1;
-  *display: inline;
-}
-
-#section-topbar ul#nav>li {
-  display: block;
-  float: left;
-  padding: 0;
-}
-
-#section-topbar ul#nav a {
-  display: block;
-  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  padding: 18px 20px 18px 20px;
-  border-left: 1px solid #222;
-}
-
-#section-topbar ul#nav a:hover {
-  background: #1F0638;
-  text-decoration: none;
-  border-left: 1px solid #10011F;
-}
-
-#section-topbar ul#nav .active {
-  background: #1F0638;
-  border-left: 1px solid #10011F;
-}
-
-#section-topbar ul#nav .active a:hover {
-  background: #1F0638;
-}
-
-#section-topbar i {
-  font-size: 25px;
-  color: #E8E8E8;
-}
 /*---------------------------------------------------
 SECTION WRAPS
 ---------------------------------------------------*/
@@ -151,7 +79,6 @@ SECTION WRAPS
 
 #headerwrap {
   background: url(../img/coverphoto.jpg) no-repeat center top;
-  margin-top: 60px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
