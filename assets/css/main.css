@@ -32,7 +32,7 @@ p {
 
 /* Links */
 a {
-  color: #E56E37;
+  color: #e56e37;
   word-wrap: break-word;
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -67,7 +67,7 @@ hr {
 }
 
 i {
-  color: #E8E8E8;
+  color: #e8e8e8;
 }
 
 section {
@@ -102,47 +102,48 @@ SECTION WRAPS
 #headerwrap h1 {
   font-size: 80px;
   margin: 0;
-  color: #E8E8E8;
+  color: #e8e8e8;
 }
 
 #headerwrap h3 {
   font-size: 20px;
-  color: #E8E8E8;
+  color: #e8e8e8;
 }
 
 #about {
-  background: #1F0638;
+  background: #1f0638;
 }
 /* Intro Wrap */
 
 #intro {
-  background: #1F0638;
+  background: #1f0638;
   padding-top: 60px;
   padding-bottom: 60px;
-  color: #E8E8E8;
+  color: #e8e8e8;
 }
 
-#intro h5, p {
-  color: #E8E8E8;
+#intro h5,
+p {
+  color: #e8e8e8;
 }
 
 #intro i {
-  color: #E56E37;
+  color: #e56e37;
   font-size: 20px;
   padding-right: 8px;
   vertical-align: middle;
 }
 
 #skillswrap {
-  background: #1F0638;
+  background: #1f0638;
   padding-top: 60px;
   padding-bottom: 60px;
-  color: #E8E8E8;
+  color: #e8e8e8;
 }
 
 #skillswrap h5,
 p {
-  color: #E8E8E8;
+  color: #e8e8e8;
 }
 
 #footwrap {
@@ -152,11 +153,11 @@ p {
 }
 
 #footwrap p {
-  color: #E8E8E8;
+  color: #e8e8e8;
 }
 
 #footwrap h5 {
-  color: #E8E8E8;
+  color: #e8e8e8;
 }
 
 #footwrap t {
@@ -165,12 +166,12 @@ p {
 
 #footwrap i {
   padding-right: 8px;
-  color: #E8E8E8;
+  color: #e8e8e8;
 }
 
 #footwrap i:hover,
 #footwrap i:focus {
-  color: #E56E37;
+  color: #e56e37;
 }
 
 /* Copyright Wrap */
@@ -180,7 +181,7 @@ p {
 }
 
 #c p {
-  color: #E8E8E8
+  color: #e8e8e8;
 }
 /* Global Values */
 
@@ -189,17 +190,17 @@ p {
 }
 
 .desc p {
-  color: #2B202A;
+  color: #2b202a;
 }
 
 .desc t {
-  color: #1F0638;
+  color: #1f0638;
   font-weight: 700;
 }
 
 .desc imp {
   padding: 6px;
-  color: #E8E8E8;
+  color: #e8e8e8;
   background: #34495e;
 }
 
